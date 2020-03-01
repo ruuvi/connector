@@ -1,0 +1,8 @@
+### Module positions - created on 2020 March 01, Sunday 18:28:31 ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                         Package                      PosX       PosY       Rot  Side
+J1        Ruuvi_Connector_Horizontal  RUUVI_CONNECTOR_FFC        0.0000   -29.4000  180.0000  bottom
+J4        Ruuvi_Connector_Horizontal  RUUVI_CONNECTOR_FFC        0.0000   -29.4000    0.0000  top
+## End
