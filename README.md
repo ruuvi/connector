@@ -34,3 +34,7 @@ Ruuvi Connector cables have 8 pins (6 signals + VDD + GND). This allows using no
 1) 17.5 x 40 mm (17.5 x 25 mm without mounting holes)
 2) TBD
 3) TBD
+
+## License
+
+All the design files in this repository are licensed using Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Copyright: Ruuvi Innovations Ltd (Oy). Neither the name of the Ruuvi nor the names of its contributors may be used to endorse or promote products derived from this project without a specific prior written permission. While unofficial products should not have "Ruuvi" in their name, it's okay to describe your product in relation to the Ruuvi projects. More info: license@ruuvi.com.
