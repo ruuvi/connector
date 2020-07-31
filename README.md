@@ -31,7 +31,7 @@ Ruuvi Connector cables have 8 pins (6 signals + VDD + GND). This allows using no
 
 ## Dimensions of expansion boards 
 
-1) 17.5 x 40 mm (17.5 x 25 mm without mounting holes)
+1) 17.5 x 40 mm (17.5 x 25 mm without mounting holes). FPC connector is [AFC07-S08ECA-00](https://lcsc.com/product-detail/Others_JUSHUO-AFC07-S08ECA-00_C262581.html). 
 2) TBD
 3) TBD
 
