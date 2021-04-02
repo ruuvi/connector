@@ -24,6 +24,6 @@ Total thickness: 0.8mm (+-0.1mm)
 Paneling
 ========
 
-14 x 7 with 10mm borders. Panel total size = 174 x 195 mm.
+10 x 5 with 10mm borders. Panel total size = 130 x 145 mm.
 
 Board separation method: v-cuts.
