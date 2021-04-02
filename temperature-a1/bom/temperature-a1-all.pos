@@ -1,0 +1,9 @@
+### Module positions - created on Friday, April 02, 2021 at 12:16:42 PM ###
+### Printed by Pcbnew version (5.99.0-10020-g5020012b14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                   Package                   PosX       PosY       Rot  Side
+C1        1uF_10V_20%_X8R_0603  0603_CAP                5.5000    11.4000  180.0000  top
+J1        AFC07-S08ECA-00       RUUVI_CONNECTOR_FFC     5.5000     3.0000    0.0000  top
+U1        TMP117AIDRVR          WSON6                   5.5000    13.3000    0.0000  top
+## End
