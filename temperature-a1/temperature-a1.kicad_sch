@@ -733,7 +733,7 @@
     (property "Reference" "C1" (id 0) (at 117.475 102.8699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (id 1) (at 117.475 105.4099 0)
+    (property "Value" "1uF 10V 20% X8R 0603" (id 1) (at 85.725 103.5049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "ruuvitag:0603_CAP" (id 2) (at 114.6302 107.315 0)
@@ -775,7 +775,7 @@
     (in_bom yes) (on_board yes)
     (uuid bbaf25d8-329e-4665-9916-a0b5cb55315a)
     (property "Reference" "U1" (id 0) (at 141.605 93.98 0))
-    (property "Value" "TMP117" (id 1) (at 141.605 96.52 0))
+    (property "Value" "TMP117AIDRVR" (id 1) (at 141.605 96.52 0))
     (property "Footprint" "ruuvitag:WSON6" (id 2) (at 141.605 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -821,7 +821,7 @@
       (reference "#PWR?") (unit 1) (value "Earth_Clean") (footprint "")
     )
     (path "/8ab0f89b-1159-4064-babc-f4cc7abfb936"
-      (reference "C1") (unit 1) (value "1u") (footprint "ruuvitag:0603_CAP")
+      (reference "C1") (unit 1) (value "1uF 10V 20% X8R 0603") (footprint "ruuvitag:0603_CAP")
     )
     (path "/832defa4-3ee7-4110-ac2e-3ed6464d8359"
       (reference "H2") (unit 1) (value "Breakout Holes") (footprint "connector:BreakoutHoles")
@@ -833,7 +833,7 @@
       (reference "T2") (unit 1) (value "Mounting Hole") (footprint "ruuvitag:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/bbaf25d8-329e-4665-9916-a0b5cb55315a"
-      (reference "U1") (unit 1) (value "TMP117") (footprint "ruuvitag:WSON6")
+      (reference "U1") (unit 1) (value "TMP117AIDRVR") (footprint "ruuvitag:WSON6")
     )
   )
 )
