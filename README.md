@@ -20,19 +20,22 @@ Ruuvi Connector is compatible with 4-pin (2 signals + VDD + GND) prototyping sys
 
 Ruuvi Connector cables have 8 pins (6 signals + VDD + GND). This allows using not just simple I2C sensors but also more powerful SPI sensors equipped with interrupt signals.
 
-1) 1.8V - 3.6V (default = 3.3V)
-2) PIN1 ( SCL / SCK / RXD / ADC1 / GPIO1 ) - compatible with Grove/Qwiic/others
-3) PIN2 ( SDA / MISO / TXD / ADC2 / GPIO2 ) - compatible with Grove/Qwiic/others
-4) PIN3 ( MOSI / ADC3 / GPIO3 )
-5) PIN4 ( CS / ADC4 / GPIO4 )
-6) PIN5 ( INT1 / ADC5 / GPIO5 )
-7) PIN6 ( INT2 / ADC6 / GPIO6 )
+Note that on RuuviTags that have Ruuvi Connectors available, pins 2 and 3 are shared with internal I2C sensors. Also pin 7 is connected to TMP117 temperature sensor's interrupt signal (if a TMP117 is populated) but because the interrupt pin is an open-drain output and because it's not active in the Ruuvi firmware by default, it doesn't reserve the pin and it can be safely used for other purposes as long as TMP117 isn't configured to pull it down.
+
+1) VDD (1.8V - 3.6V, default = 3.3V)
+2) I2C_SCL / UART_RXD / ADC / GPIO
+3) I2C_SDA / UART_TXD / ADC / GPIO
+4) SPI_MISO / ADC / GPIO
+5) SPI_MOSI / ADC / GPIO
+6) SPI_SCK / ADC / GPIO
+7) SPI_CS / ADC / GPIO
 8) GND
 
+Default FPC connector is [AFC07-S08ECA-00](https://lcsc.com/product-detail/Others_JUSHUO-AFC07-S08ECA-00_C262581.html).
 ## Dimensions of expansion boards 
 
-1) 17.5 x 40 mm (17.5 x 25 mm without mounting holes). FPC connector is [AFC07-S08ECA-00](https://lcsc.com/product-detail/Others_JUSHUO-AFC07-S08ECA-00_C262581.html). 
-2) TBD
+1) 17.5 x 40 mm (17.5 x 25 mm without mounting holes). Used on the breakout board. 
+2) 11 x 25 mm. Used on the external temperature sensor board.
 3) TBD
 
 ## License
